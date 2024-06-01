@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页 - 开心的大胆超人</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to bottom, #b2d7ff, #5eb9ff);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #004494;
+        }
+        .container {
+            padding: 20px;
+        }
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .blog, .portfolio, .contact {
+            margin-bottom: 40px;
+        }
+        .blog h2, .portfolio h2, .contact h2 {
+            color: #007bff;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background: linear-gradient(to bottom, #007bff, #5eb9ff);
+            color: #fff;
+            text-align: center;
+            padding: 0px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>开心的大胆超人的个人网页</h1>
+</header>
+
+<nav>
+    <a href="#profile">简介</a>
+    <a href="#blog">博客</a>
+    <a href="#portfolio">作品集</a>
+    <a href="#contact">联系</a>
+</nav>
+
+<div class="container">
+    <section id="profile" class="profile">
+        <img src="https://live.staticflickr.com/624/21494394803_6d83ba9a4c_m.jpg" alt="开心的大胆超人">
+        <h2>开心的大胆超人</h2>
+        <p>你好！我是开心的大胆超人，一名软件工程师，热衷于编程和技术创新。毕业于清华大学计算机科学与技术专业，现居北京，工作于一家知名科技公司。</p>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>博客文章</h2>
+        <article>
+            <h3>如何开始学习编程</h3>
+            <p>编程是一项有趣且有用的技能，无论你是为了职业发展还是个人兴趣，都可以从中受益。本文将介绍一些入门编程的方法和资源。</p>
+        </article>
+        <article>
+            <h3>软件开发中的最佳实践</h3>
+            <p>在软件开发过程中，遵循一些最佳实践可以帮助你写出更高质量的代码，并提高开发效率。本文将介绍一些常见的最佳实践。</p>
+        </article>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>作品集</h2>
+        <div>
+            <img src="https://via.placeholder.com/600x400" alt="项目1">
+            <h3>项目1：个人网站设计</h3>
+            <p>这是一个基于HTML、CSS和JavaScript的个人网站项目，展示了我的前端开发技能。</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/600x400" alt="项目2">
+            <h3>项目2：移动应用开发</h3>
+            <p>开发了一款用于任务管理的移动应用，支持iOS和Android平台，使用Flutter框架。</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>联系我</h2>
+        <form>
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">邮箱:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="message">留言:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">提交</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 开心的大胆超人. 版权所有.</p>
+    <p>关注我: <a href="https://pic2.zhimg.com/v2-a1cd6552995408263641f9cc3cabe69d_b.jpg" style="color:#fff;">什么玩意</a> | <a href="#" style="color:#fff;">微信</a> | <a href="#" style="color:#fff;">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
